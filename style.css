@@ -1,0 +1,56 @@
+/* Partie 1 : Mise en forme globale */
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0;
+}
+
+/* Partie 2 : Mise en forme du header */
+header {
+    background-color: red;
+    color: white;
+}
+
+.LienTitre {
+    color: red;
+    text-decoration: none;
+}
+
+.LienTitre:visited {
+    color: black;
+}
+
+.LienTitre:hover {
+    color: yellow;
+}
+
+.LienTitre:selected {
+    color: green;
+}
+
+/* Partie 3 : Mise en forme du formulaire */
+form {
+    width: 500px;
+    margin: 20px;
+    background-color: #f2f2f2;
+}
+
+title {
+    text-decoration: underline;
+    color: red;
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    background-color: #DED983;
+    font-size: 1.2em;
+    color: #345071;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Partie 4 : Mise en forme du footer */
+footer {
+    background-color: red;
+    color: white;
+}
